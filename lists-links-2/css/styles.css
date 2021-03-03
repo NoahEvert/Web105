@@ -1,0 +1,53 @@
+body{
+    background: darkorchid;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+    max-width: 1080px;
+    padding: 10px;
+    border: 2px solid gold;
+    margin: 10px auto;
+    background: ivory;
+    color: grey;
+}
+
+ul{
+    list-style-type: disc;
+    list-style-position: inside;
+    color: black;
+    font-weight: bold;
+}
+
+ul ul{
+    list-style-type: square;
+    list-style-position: outside;
+    color: blue;
+    font-weight: normal;
+}
+
+ol{
+    list-style-position: inside;
+    color: black;
+    font-weight: bold;
+}
+ol ol{
+    list-style-position: outside;
+    color: blue;
+    font-weight: normal;
+}
+
+dt{
+    font-weight: bold;
+    color: black;
+    
+}
+
+dd{
+    font-weight: normal;
+    color: blue;
+}
+h2{
+    color: crimson;
+}
